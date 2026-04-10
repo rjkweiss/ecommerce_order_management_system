@@ -1,0 +1,11 @@
+id,type, name,basePrice,category,weight,location,fragile, fileSize,downloadUrl, licenseType,monthlyPrice,billingCycle,autoRenew,tier
+P001,Physical,Wireless Keyboard,49.99,Electronics,1.2,Warehouse_A,FALSE,,,,,,,
+P002,Physical,Glass Monitor Stand,89.99,Electronics,8.5,Warehouse_B,TRUE,,,,,,,
+P003,Digital,Photo Editor Pro,89.99,Software,,,,250,https://download.shopsmart.com/photo-editor,Multi_Device,,,,
+P004,Digital,Antivirus Basic,29.99,Software,,,,50,https://download.shopsmart.com/antivirus,Single_Use,,,,
+P005,Subscription,CloudStorage Plus,,Storage,,,,,,,9.99,Monthly,TRUE,Premium
+P006,Subscription,Music Streaming,,Entertainment,,,,,,,4.99,Annual,TRUE,Basic
+P007,Physical,USB-C Hub,34.99,Electronics,0.3,Warehouse_A,FALSE,,,,,,,
+P008,Digital,Video Converter,59.99,Software,,,,180,https://download.shopsmart.com/video-conv,Enterprise,,,,
+P009,Subscription,Project Manager Pro,,Productivity,,,,,,,19.99,Quarterly,FALSE,Enterprise
+P010,Physical,Mechanical Keyboard,149.99,Electronics,2.1,Warehouse_C,TRUE,,,,,,,

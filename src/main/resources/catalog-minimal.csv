@@ -1,0 +1,4 @@
+id,type,name,basePrice,category,weight,location,fragile,fileSize,downloadUrl,licenseType,monthlyPrice,billingCycle,autoRenew,tier
+P001,PHYSICAL,Basic Widget,9.99,General,,,,,,,,,,
+P002,DIGITAL,Free Trial,0.00,Software,,,,,,,,,,
+P003,SUBSCRIPTION,Free Tier,,General,,,,,,,,0.00,,,

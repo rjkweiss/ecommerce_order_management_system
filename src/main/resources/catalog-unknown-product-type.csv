@@ -1,0 +1,3 @@
+id,type,name,basePrice,category,weight,location,fragile,fileSize,downloadUrl,licenseType,monthlyPrice,billingCycle,autoRenew,tier
+P001,PHYSICAL,Valid Product,29.99,Electronics,1.0,WAREHOUSE_A,false,,,,,,
+P002,HOLOGRAM,Future Product,999.99,SciFi,,,,,,,,,,

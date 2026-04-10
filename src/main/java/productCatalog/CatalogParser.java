@@ -41,6 +41,8 @@ public class CatalogParser {
         throw new InvalidCSVFileException("Cannot parse CSV file. Invalid file format");
       }
 
+      System.out.println("Headers found: " + headers);
+
       // go through line by line
       String line;
       while ((line = reader.readLine()) != null) {
@@ -51,7 +53,11 @@ public class CatalogParser {
         // create a map to store each customer data
         Map<String, String> attributes = new HashMap<>();
         for(int i = 0; i < headers.size(); i++) {
-          String value = row.get(i);
+          String value = "";
+
+          if (i < row.size()) {
+            value = row.get(i);
+          }
           String key = headers.get(i);
 
           attributes.put(key, value);

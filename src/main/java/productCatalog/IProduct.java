@@ -19,4 +19,33 @@ public interface IProduct {
    */
   boolean matches(String searchTerm);
 
+  /**
+   * Returns the id of product
+   * @return id, as String
+   */
+  String getID();
+
+  /**
+   * Returns the name of product
+   * @return name, as String
+   */
+  String getName();
+
+  /**
+   * Returns the base price of product
+   * @return base price, as double
+   */
+  double getBasePrice();
+
+  /**
+   * Returns the category for product
+   * @return category, as String
+   */
+  String getCategory();
+
+  /**
+   * Returns the type of product
+   * @return product type, as custom ProductTypeEnum
+   */
+  ProductType getProductType();
 }

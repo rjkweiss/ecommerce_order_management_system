@@ -36,6 +36,7 @@ public abstract class AbstractProduct implements IProduct {
    * Getter for product's ID
    * @return id, as String
    */
+  @Override
   public String getID() {
     return id;
   }
@@ -44,6 +45,7 @@ public abstract class AbstractProduct implements IProduct {
    * Getter for product's name
    * @return name, as String
    */
+  @Override
   public String getName() {
     return name;
   }
@@ -52,6 +54,7 @@ public abstract class AbstractProduct implements IProduct {
    * Getter for product's base price
    * @return base price, as double
    */
+  @Override
   public double getBasePrice() {
     return basePrice;
   }
@@ -60,6 +63,7 @@ public abstract class AbstractProduct implements IProduct {
    * Getter for product's category
    * @return category, as String
    */
+  @Override
   public String getCategory() {
     return category;
   }

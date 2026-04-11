@@ -42,6 +42,11 @@ public class SubscriptionProduct extends AbstractProduct {
   }
 
   @Override
+  public ProductType getProductType() {
+    return ProductType.SUBSCRIPTION;
+  }
+
+  @Override
   public boolean isAvailable() {
     return true;
   }

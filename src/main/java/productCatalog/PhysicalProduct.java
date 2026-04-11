@@ -49,6 +49,11 @@ public class PhysicalProduct extends AbstractProduct {
   }
 
   @Override
+  public ProductType getProductType() {
+    return ProductType.PHYSICAL;
+  }
+
+  @Override
   public boolean isAvailable() {
     return true;
   }

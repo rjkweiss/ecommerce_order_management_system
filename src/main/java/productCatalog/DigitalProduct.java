@@ -49,6 +49,11 @@ public class DigitalProduct extends AbstractProduct {
   }
 
   @Override
+  public ProductType getProductType() {
+    return ProductType.DIGITAL;
+  }
+
+  @Override
   public boolean isAvailable() {
     return true;
   }
